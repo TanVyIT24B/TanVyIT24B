@@ -1,1 +1,16 @@
+public class mangMot {
+    public static void bai4_1(){
+        int arr[] = {3, 5, 8, 10, 14, 25};
+        int i=0;
+		System.out.printf("Phan tu thu nhat arr[%d] = " + arr[i], i++);
+		System.out.printf("\nPhan tu thu hai  arr[%d] = " + arr[i],i++);
+		System.out.printf("\nPhan tu thu ba   arr[%d] = " + arr[i], i++);
+		System.out.printf("\nPhan tu thu tu   arr[%d] = " + arr[i], i++);
+		System.out.printf("\nPhan tu thu nam  arr[%d] = " + arr[i],i++);
+		System.out.printf("\nPhan tu thu sau  arr[%d] = " + arr[i],i++);
+    }
+    public static void main(String[] args){
+        bai4_1();
+    }
+}
 
