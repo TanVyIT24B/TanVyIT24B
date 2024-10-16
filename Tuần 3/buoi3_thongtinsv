@@ -1,1 +1,32 @@
-
+import java.util.Scanner;
+public class SinhVien {
+    public static void main(String [] args){
+        System.out.println("----THONG TIN SINH VIEN----");
+        Scanner sc = new Scanner(System.in);
+        ///Ma sinh vien
+        System.out.print("Ma sinh vien: ");
+        int MaSinhVien = sc.nextInt();
+        ///Ho va ten
+        System.out.print("Ho va ten: ");
+        String HoTen = new Scanner(System.in).nextLine();
+        ///Ngay sinh
+        System.out.print("Ngay sinh: ");
+        String NgaySinh = new Scanner(System.in).nextLine();
+        ///Tuoi
+        System.out.print("Tuoi: ");
+        int Tuoi = sc.nextInt();
+        ///Gioi tinh
+        System.out.print("Gioi tinh: ");
+        String GioiTinh = new Scanner(System.in).nextLine();
+        ///Lop
+        System.out.print("Lop: ");
+        String Lop = new Scanner(System.in).nextLine();
+        ///Khoax`
+        System.out.print("Khoa: ");
+        String Khoa = new Scanner(System.in).nextLine();
+        ///Dia chi
+        System.out.print("Dia chi: ");
+        String DiaChi = new Scanner(System.in).nextLine();
+        System.out.println("----HET----");
+    }
+}
