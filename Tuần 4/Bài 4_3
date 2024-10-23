@@ -1,0 +1,15 @@
+public class buoi4 {
+    public static void bai4_3() {
+        int arr[][] = new int[2][3];
+        int i = 0, j = 0;
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i, j);
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i, j = j + 1);
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i, j = j + 1);
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i = i + 1, j = 0);
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i, j = j + 1);
+        System.out.printf("\nPhan tu thu nhat arr[%d][%d]", i, j = j + 1);
+    }
+    public static void main(String[] args) {
+        bai4_3();
+    }
+}
