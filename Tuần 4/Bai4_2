@@ -1,0 +1,14 @@
+public class buoi4 {
+    public static void bai4_2(){
+        String nguHanh[] = {"kim","moc","thuy","hoa","tho"};
+        int i = 0;
+        System.out.printf("\nPhan tu thu nhat nguHanh[%d] =" +nguHanh[i],i++);
+        System.out.printf("\nPhan tu thu hai  nguHanh[%d] =" +nguHanh[i],i++);
+        System.out.printf("\nPhan tu thu ba   nguHanh[%d] =" +nguHanh[i],i++);
+        System.out.printf("\nPhan tu thu tu   nguHanh[%d] =" +nguHanh[i],i++);
+        System.out.printf("\nPhan tu thu nam  nguHanh[%d] =" +nguHanh[i],i++);
+    }
+    public static void main(String[] args){
+        bai4_2();
+    }
+}
