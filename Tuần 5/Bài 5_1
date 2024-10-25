@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class Bai5_1{
+        public static int findMax(int a, int b){
+            return a > b ? a : b;
+        }
+         public static int findMin(int a, int b){
+             return a<b ? a : b;
+        }
+        public static int ssMax(int a, int b){
+            int max = a;
+            if(max < b)
+            {
+                  max = b;
+            }
+            return max;
+        }
+        public static int ssMin(int a, int b){
+             int min = a;
+             if(min >b)
+             {
+                 min = b;
+             }
+             return min;
+        }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a,b;
+        System.out.print("Nhap so thu nhat: ");
+        a = sc.nextInt();
+        System.out.print("Nhap so thu hai: ");
+        b = sc.nextInt();
+        System.out.printf("\nGia tri lon nhat cua %d va %d la: %d ",a,b,findMax(a, b));
+        System.out.printf("\nGia tri nho nhat cua %d va %d la: %d ",a,b,findMin(a, b));
+        System.out.printf("\nGia tri lon nhat cua %d va %d la: %d ",a,b,ssMax(a,b));
+        System.out.printf("\nGia tri nho nhat cua %d va %d la: %d ",a,b,ssMin(a,b));
+    }
+}
