@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Bai4_3NC {
+    public static void main(String[] args){
+        System.out.print("Nhap gia tri n: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.print("Gia tri le tu 1 den n la: ");
+        for(int i = 1; i <= n; i++)
+        {
+            if(i%2 != 0)
+            {
+                System.out.print("\t"+i);
+            }
+        }
+    }
+}
