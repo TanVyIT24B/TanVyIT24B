@@ -1,0 +1,77 @@
+import java.util.Scanner;
+public class Buoi6{
+    public static void bai6_11(){
+        String hoTen = "Nguyen Van An";
+        String ngaySinh = "20/10/2006";
+        String diemTongKet = "5.5";
+        String tuoi = "18";
+        System.out.println("-----THONG TIN SINH VIEN-----");
+        System.out.println("Ho va ten: "+hoTen);
+        System.out.println("Ngay sinh: "+ngaySinh);
+        System.out.println("Diem tong ket: "+ Float.parseFloat(diemTongKet));
+        System.out.println("Tuoi : "+ Integer.parseInt(tuoi));
+        System.out.println("-----HET-----");
+    }
+    public static void bai6_12(){
+        String hoTen = "Nguyen Van An";
+        String ngaySinh = "20/10/2006";
+        Float diemTongKet = 5.5f;
+        int tuoi = 18;
+        System.out.println("-----THONG TIN SINH VIEN-----");
+        System.out.println("Ho va ten: "+hoTen);
+        System.out.println("Ngay sinh: "+ngaySinh);
+        System.out.println("Diem tong ket: "+ Float.toString(diemTongKet));
+        System.out.println("Tuoi : "+ Integer.toString(tuoi));
+        System.out.println("-----HET-----");
+    }
+    public static void bai6_21(){
+        Scanner sc = new Scanner(System.in);
+        String hoTen;
+        String ngaySinh;
+        String diemTongKet;
+        String tuoi;
+        System.out.println("Nhap ho va ten: ");
+        hoTen = sc.nextLine();
+        System.out.println("Nhap ngay sinh: ");
+        ngaySinh = sc.nextLine();
+        System.out.println("Nhap diem tong ket: ");
+        diemTongKet = sc.nextLine();
+        System.out.println("Nhap tuoi cua ban: ");
+        tuoi = sc.nextLine();
+        System.out.println("-----THONG TIN SINH VIEN-----");
+        System.out.println("Ho va ten: " + hoTen);
+        System.out.println("Ngay sinh: " + ngaySinh);
+        System.out.println("Diem tong ket: " + Float.parseFloat(diemTongKet));
+        System.out.println("Tuoi: " + Integer.parseInt(tuoi));
+        System.out.println("-----HET-----");
+
+    }
+    public static void bai6_22(){
+        Scanner sc = new Scanner(System.in);
+        String hoTen;
+        String ngaySinh;
+        Float diemTongKet;
+        int tuoi;
+        System.out.println("Nhap ho va ten: ");
+        hoTen = sc.nextLine();
+        System.out.println("Nhap ngay sinh: ");
+        ngaySinh = sc.nextLine();
+        System.out.println("Nhap diem tong ket: ");
+        diemTongKet = sc.nextFloat();
+        System.out.println("Nhap tuoi cua ban: ");
+        tuoi = sc.nextInt();
+        System.out.println("-----THONG TIN SINH VIEN-----");
+        System.out.println("Ho va ten: " + hoTen);
+        System.out.println("Ngay sinh: " + ngaySinh);
+        System.out.println("Diem tong ket: " + Float.toString(diemTongKet));
+        System.out.println("Tuoi: " + Integer.toString(tuoi));
+        System.out.println("-----HET-----");
+
+    }
+    public static void main(String[] args){
+        bai6_11();
+        bai6_12();
+        bai6_21();
+        bai6_22();
+    }
+}
