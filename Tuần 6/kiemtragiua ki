@@ -1,0 +1,70 @@
+public class Vy108803 {
+    public static void cau2De2(){
+        double a [][] = {{5.5,2.4,3.8},{6.5,9.5},{7.8,8.0}};
+        System.out.println("Phan tu cua mang a la : ");
+        for(int i = 0; i < a.length;i++){
+            for(int j = 0; j < a[i].length;j++){
+                System.out.print("\t" + a[i][j]);
+            }
+        }
+        System.out.println();
+    }
+    public static void hienThiMang(){
+        int b [] = {3,5,6,8,10,14,17,19,20};
+        System.out.println("Phan tu cua mang b la: ");
+        for(int i = 0; i < b.length; i++)
+        {
+            System.out.print("\t" + b[i]);
+        }
+    }
+    public static int minB(){
+        int b [] = {3,5,6,8,10,14,17,19,20};
+        int min = b[0];
+        for(int i = 0; i < b.length; i++)
+        {
+
+            if(b[i] < min)
+            {
+                min = b[i];
+            }
+            System.out.println();
+        }
+        return min;
+    }
+    public static int LeB(){
+        int b [] = {3,5,6,8,10,14,17,19,20};
+        int sum = 0;
+        for(int i = 0; i < b.length; i++)
+        {
+            if(b[i] %2 != 0)
+            {
+                sum += b[i];
+            }
+        }
+        return sum;
+    }
+    public static void hienThiPhanTuMax10()
+    {
+        int b[] = {3,5,6,8,10,14,17,19,20};
+        System.out.println("Cac phan tu nho hon hoac bang 10 trong mang b la : ");
+        for(int i = 0; i < b.length; i++)
+        {
+            if(b[i] <= 10)
+            {
+                System.out.print("\t" + b[i]);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int b[] = {3,5,6,8,10,14,17,19,20};
+        //cau2De2();
+        //hienThiMang();
+        //Cau3_2
+        System.out.println("Gia tri nho nhat cua mang b la : "+ minB());
+        //Cau3_3    
+        System.out.println("tong cac gia tri le cua mang b la :  " + LeB());
+        //Cau3_4
+        hienThiPhanTuMax10();
+    }
+}
